@@ -1100,12 +1100,6 @@ body.dark-theme {
         margin-inline: 1rem;
     }
 
-    .home__social-link {
-        font-size: 1.2rem; /* Adjust size for smaller screens */
-        max-width: 36px; /* Adjust width */
-        max-height: 36px; /* Adjust height */
-    }
-
     .home__image {
         width: 180px;
     }
@@ -1125,6 +1119,12 @@ body.dark-theme {
 
     .contact__data .section__title-2 {
         transform: translateX(0);
+    }
+}
+
+@media screen and (max-width: 390px) {
+    .home__social-link {
+        display: none;
     }
 }
 
