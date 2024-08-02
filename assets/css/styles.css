@@ -1102,8 +1102,8 @@ body.dark-theme {
 
     .home__social-link {
         font-size: 1.2rem; /* Adjust size for smaller screens */
-        width: 36px; /* Adjust width */
-        height: 36px; /* Adjust height */
+        max-width: 36px; /* Adjust width */
+        max-height: 36px; /* Adjust height */
     }
 
     .home__image {
